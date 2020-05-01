@@ -1,0 +1,51 @@
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.h3block1 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.block1 {
+  background-color: #f9f9f9;
+  padding: 5% 25% 2%;
+}
+
+.pblock1 {
+  color: gray;
+}
+
+.block2 {
+  background-color: #6886c5;
+  padding: 5% 20% 9% 10%;
+}
+
+.block3 {
+  background-color: hsl(218, 22%, 67%);
+  padding: 5% 20% 9% 10%;
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+}
+
+.money {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+@media only screen and  (max-width: 768px) {
+  .block1 {padding:5% 9% 3% 15%;}
+  .block2 {padding:5% 9% 3% 15% }
+  .block3 {padding:5% 9% 3% 15% }
+}
